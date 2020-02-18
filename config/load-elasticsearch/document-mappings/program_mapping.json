@@ -14,14 +14,18 @@
         "type": "string",
         "index": "not_analyzed"
       },
-      "objective": {
+      "commonCropName": {
         "type": "string",
         "index": "not_analyzed"
       },
       "leadPerson": {
         "type": "string",
         "index": "not_analyzed"
-      }
+      },
+      "objective": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
     }
   }
 }

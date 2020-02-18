@@ -1,0 +1,76 @@
+{
+  "germplasm": {
+    "dynamic": false,
+    "properties": {
+      "crossingPlan": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "crossingYear": {
+        "type": "integer",
+        "index": "not_analyzed"
+      },
+      "defaultDisplayName": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "familyCode": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "germplasmDbId": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "parent1DbId": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "parent1Id": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "parent1Name": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "parent1Type": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "parent2DbId": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "parent2Id": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "parent2Name": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "parent2Type": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "pedigree": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "siblings": {
+        "properties": {
+          "germplasmDbId": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "defaultDisplayName": {
+            "type": "string",
+            "index": "not_analyzed"
+          }
+        }
+      }
+    }
+  }
+}
+

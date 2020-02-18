@@ -1,0 +1,32 @@
+{
+  "germplasm": {
+    "dynamic": false,
+    "properties": {
+      "defaultDisplayName": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "germplasmDbId:": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "progeny": {
+        "properties": {
+          "defaultDisplayName": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "germplasmDbId": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "parentType": {
+            "type": "string",
+            "index": "not_analyzed"
+          }
+        }
+      }
+    }
+  }
+}
+

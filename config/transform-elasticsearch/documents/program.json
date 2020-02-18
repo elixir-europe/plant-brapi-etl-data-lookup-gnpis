@@ -11,6 +11,12 @@
         "{.programName}",
         "{.name}"
       ]
+    },
+    "leadPersonName": {
+      "{or}": [
+        "{.leadPersonName}",
+        "{.leadPerson}"
+      ]
     }
   }
 }

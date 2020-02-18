@@ -1,0 +1,204 @@
+{
+  "germplasm": {
+    "dynamic": false,
+    "properties": {
+      "accessionNames": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "accessionNumber": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "acquisitionDate:": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "acquisitionSourceCode": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "alternateIDs": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "ancestralData": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "biologicalStatusOfAccessionCode": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "breedingInstitutes": {
+        "properties": {
+          "instituteCode": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "instituteName": {
+            "type": "string",
+            "index": "not_analyzed"
+          }
+        }
+      },
+      "collectingInfo": {
+        "properties": {
+          "collectingDate": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "collectingInstitutes": {
+            "properties": {
+              "instituteAddress": {
+                "type": "string",
+                "index": "not_analyzed"
+              },
+              "instituteCode": {
+                "type": "string",
+                "index": "not_analyzed"
+              },
+              "instituteName:": {
+                "type": "string",
+                "index": "not_analyzed"
+              }
+            }
+          },
+          "collectingMissionIdentifier": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "collectingNumber:": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "collectingSite": {
+            "properties": {
+              "coordinateUncertainty": {
+                "type": "string",
+                "index": "not_analyzed"
+              },
+              "elevation": {
+                "type": "string",
+                "index": "not_analyzed"
+              },
+              "georeferencingMethod": {
+                "type": "string",
+                "index": "not_analyzed"
+              },
+              "latitudeDecimal": {
+                "type": "string",
+                "index": "not_analyzed"
+              },
+              "latitudeDegrees": {
+                "type": "string",
+                "index": "not_analyzed"
+              },
+              "locationDescription": {
+                "type": "string",
+                "index": "not_analyzed"
+              },
+              "longitudeDecimal:": {
+                "type": "string",
+                "index": "not_analyzed"
+              },
+              "longitudeDegrees": {
+                "type": "string",
+                "index": "not_analyzed"
+              },
+              "spatialReferenceSystem": {
+                "type": "string",
+                "index": "not_analyzed"
+              }
+            }
+          }
+        }
+      },
+      "commonCropName": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "countryOfOrigin": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "donorInfo": {
+         "properties": {
+           "donorAccessionNumber": {
+             "type": "string",
+             "index": "not_analyzed"
+           },
+           "donorInstitute": {
+             "type": "string",
+             "index": "not_analyzed"
+           },
+           "instituteCode": {
+             "type": "string",
+             "index": "not_analyzed"
+           },
+           "instituteName": {
+			 "type": "string",
+			 "index": "not_analyzed"
+		   }
+		 }
+      },
+      "genus": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "germplasmDbId": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "germplasmPUI": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "instituteCode": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "mlsStatus": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "remarks": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "safetyDuplicateInstitues": {
+         "properties": {
+           "instituteCode": {
+             "type": "string",
+             "index": "not_analyzed"
+           },
+           "instituteName": {
+             "type": "string",
+             "index": "not_analyzed"
+           }
+         }
+      },
+      "species": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "speciesAuthority": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "storageTypeCodes": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "subtaxon": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "subtaxonAuthority": {
+        "type": "string",
+        "index": "not_analyzed"
+      }
+    }
+  }
+}
+

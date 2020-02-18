@@ -55,6 +55,26 @@
       "@type": "Location",
       "@context": "linked-data/Location.jsonld",
       "brapi-name": "locations"
+    },
+    "germplasmAttribute": {
+      "@type": "GermplasmAttribute",
+      "@context": "linked-data/GermplasmAttribute.jsonld",
+      "brapi-name": "germplasmAttribute"
+    },
+    "germplasmPedigree": {
+      "@type": "GermplasmPedigree",
+      "@context": "linked-data/GermplasmPedigree.jsonld",
+      "brapi-name": "germplasmPedigree"
+    },
+    "germplasmProgeny": {
+      "@type": "GermplasmProgeny",
+      "@context": "linked-data/GermplasmProgeny.jsonld",
+      "brapi-name": "germplasmProgeny"
+    },
+    "germplasmMcpd": {
+      "@type": "GermplasmMcpd",
+      "@context": "linked-data/GermplasmMcpd.jsonld",
+      "brapi-name": "germplasmMcpd"
     }
   }
 }

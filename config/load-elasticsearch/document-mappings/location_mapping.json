@@ -6,15 +6,19 @@
         "type": "string",
         "index": "not_analyzed"
       },
-      "locationType": {
-        "type": "string",
-        "index": "not_analyzed"
-      },
       "locationName": {
         "type": "string",
         "index": "not_analyzed"
       },
+      "name": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
       "abbreviation": {
+        "type": "string",
+        "index": "not_analyzed"
+      },
+      "locationType": {
         "type": "string",
         "index": "not_analyzed"
       },
@@ -35,11 +39,11 @@
       "altitude": {
         "type": "double"
       },
-      "institutionName": {
+      "instituteName": {
         "type": "string",
         "index": "not_analyzed"
       },
-      "institutionAddress": {
+      "instituteAddress": {
         "type": "string",
         "index": "not_analyzed"
       },
