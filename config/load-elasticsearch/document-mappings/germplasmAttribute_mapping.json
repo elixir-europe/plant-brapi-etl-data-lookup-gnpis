@@ -1,1 +1,32 @@
+{
+  "germplasm": {
+    "dynamic": false,
+    "properties": {
+      "data" : {
+        "properties": {
+          "attributeDbId": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "attributeCode": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "attributeName": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "determinedDate": {
+            "type": "string",
+            "index": "not_analyzed"
+          },
+          "value": {
+            "type": "string",
+            "index": "not_analyzed"
+          }
 
+        }
+      }
+    }
+  }
+}
